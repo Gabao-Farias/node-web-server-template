@@ -7,10 +7,10 @@ const surveyController = new SurveyController();
 const userController = new UserController();
 
 // POST
-router.post("/surveys", surveyController.create);
-router.post("/users", userController.create);
+router.post('/surveys', surveyController.create);
+router.post('/users', userController.create);
 
 // GET
-router.get("/surveys", surveyController.show);
+router.get('/surveys', surveyController.show);
 
 export { router };
